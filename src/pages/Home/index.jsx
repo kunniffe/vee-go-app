@@ -1,7 +1,13 @@
 import { Typography } from '@mui/material';
 
+import Layout from '../../components/Layout';
+
 function HomePage() {
-  return <Typography>Hello, Home!</Typography>;
+  return (
+    <Layout>
+      <Typography>Hello, Home!</Typography>
+    </Layout>
+  );
 }
 
 export default HomePage;

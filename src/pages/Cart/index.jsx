@@ -1,7 +1,13 @@
 import { Typography } from '@mui/material';
 
+import Layout from "../../components/Layout";
+
 function CartPage() {
-  return <Typography>Hello, Cart!</Typography>;
+  return (
+    <Layout>
+      <Typography>Hello, Cart!</Typography>
+    </Layout>
+  );
 }
 
 export default CartPage;

@@ -1,7 +1,13 @@
 import { Typography } from '@mui/material';
 
+import Layout from "../../../../../../components/Layout";
+
 function AccountSingleOrderPage() {
-  return <Typography>Hello, Single Order!</Typography>;
+  return (
+    <Layout>
+      <Typography>Hello, Single Order!</Typography>
+    </Layout>
+  );
 }
 
 export default AccountSingleOrderPage;
