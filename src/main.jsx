@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+// import App from './App';
 
 // MUI.
 import { CssBaseline, ThemeProvider } from '@mui/material';
@@ -10,11 +10,15 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import theme from "./services/theme";
 
+// Routing.
+import { RouterProvider } from 'react-router-dom';
+import router from "./services/router";
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CssBaseline>
       <ThemeProvider theme={theme}>
-        <App />
+        <RouterProvider router={router} />
       </ThemeProvider>
     </CssBaseline>
   </React.StrictMode>
