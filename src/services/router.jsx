@@ -1,50 +1,72 @@
 import { createBrowserRouter } from "react-router-dom";
 
+// Top-level routes.
+import HomePage from "../pages/Home";
+import CartPage from "../pages/Cart";
+import CheckoutPage from "../pages/Checkout";
+
+// Account routes.
+import AccountDashboardPage from "../pages/Account/pages/Dashboard";
+import AccountCreatePage from "../pages/Account/pages/Create";
+import AccountLoginPage from "../pages/Account/pages/Login";
+import AccountOrderListPage from "../pages/Account/pages/Orders/pages/List";
+import AccountSingleOrderPage from "../pages/Account/pages/Orders/pages/Single";
+import AccountSettingsPage from "../pages/Account/pages/Settings";
+import AccountWishlistPage from "../pages/Account/pages/Wishlist";
+
+// Recipe routes.
+import RecipeListPage from "../pages/Recipes/pages/List";
+import SingleRecipePage from "../pages/Recipes/pages/Single";
+
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <div>Hello Home!</div>,
+        element: <HomePage />,
         errorElement: <div>Error!</div>,
     },
     {
         path: "/account",
-        element: <div>Hello Account!</div>,
+        element: <AccountDashboardPage />,
     },
     {
         path: "/account/create",
-        element: <div>Hello Create!</div>,
+        element: <AccountCreatePage />,
     },
     {
         path: "/account/login",
-        element: <div>Hello Login!</div>,
+        element: <AccountLoginPage />,
     },
     {
         path: "/account/orders",
-        element: <div>Hello Orders!</div>,
+        element: <AccountOrderListPage />,
+    },
+    {
+        path: "/account/orders/:orderId",
+        element: <AccountSingleOrderPage />,
     },
     {
         path: "/account/settings",
-        element: <div>Hello Settings!</div>,
+        element: <AccountSettingsPage />
     },
     {
         path: "/account/wishlist",
-        element: <div>Hello Wishlist!</div>,
+        element: <AccountWishlistPage />,
     },
     {
         path: "/cart",
-        element: <div>Hello Cart!</div>,
+        element: <CartPage />,
     },
     {
         path: "/checkout",
-        element: <div>Hello Checkout!</div>,
+        element: <CheckoutPage />,
     },
     {
         path: "/recipes",
-        element: <div>Hello Recipes!</div>,
+        element: <RecipeListPage />,
     },
     {
         path: "/recipes/:recipeId",
-        element: <div>Hello Single Recipe!</div>,
+        element: <SingleRecipePage />,
     },
 ]);
 
