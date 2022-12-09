@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import { Helmet } from "react-helmet";
 
 import Layout from "../../../../components/Layout";
@@ -9,7 +8,7 @@ function AccountDashboardPage() {
       <Helmet>
         <title>Dashboard | Veego</title>
       </Helmet>
-      <Typography>Hello, Dashboard!</Typography>
+      <p>Hello, Dashboard!</p>
     </Layout>
   );
 }

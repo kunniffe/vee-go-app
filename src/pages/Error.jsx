@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import { Helmet } from "react-helmet";
 
 function ErrorPage() {
@@ -7,7 +6,7 @@ function ErrorPage() {
       <Helmet>
         <title>Error | Veego</title>
       </Helmet>
-      <Typography>Error!</Typography>
+      <p>Error!</p>
     </>
   );
 }

@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import { Helmet } from "react-helmet";
 
 function AccountLoginPage() {
@@ -7,7 +6,7 @@ function AccountLoginPage() {
       <Helmet>
         <title>Login | Veego</title>
       </Helmet>
-      <Typography>Hello, Login!</Typography>
+      <p>Hello, Login!</p>
     </>
   );
 }

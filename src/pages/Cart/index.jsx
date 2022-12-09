@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import { Helmet } from "react-helmet";
 
 import Layout from "../../components/Layout";
@@ -9,7 +8,7 @@ function CartPage() {
       <Helmet>
         <title>Cart | Veego</title>
       </Helmet>
-      <Typography>Hello, Cart!</Typography>
+      <p>Hello, Cart!</p>
     </Layout>
   );
 }

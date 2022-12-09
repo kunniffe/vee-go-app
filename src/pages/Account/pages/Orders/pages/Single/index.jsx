@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import { Helmet } from "react-helmet";
 
 import Layout from "../../../../../../components/Layout";
@@ -9,7 +8,7 @@ function AccountSingleOrderPage() {
       <Helmet>
         <title>Single Order | Veego</title>
       </Helmet>
-      <Typography>Hello, Single Order!</Typography>
+      <p>Hello, Single Order!</p>
     </Layout>
   );
 }
