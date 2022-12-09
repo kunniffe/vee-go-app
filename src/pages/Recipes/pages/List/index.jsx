@@ -18,6 +18,7 @@ function RecipeListPage() {
   });
 
   const RecipeList = () => {
+    // Recipe HTML goes below...
     return (
       <ul>
         {recipes.map((recipe) => (
