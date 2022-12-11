@@ -5,7 +5,7 @@
     "image": "jambalaya.jpg",
     "course": "dinner",
     "description": "Prep: 10min, Cook: 35min, Serves: 2",
-    "price": 19.99,
+    "price": 23.99,
     "ingredient": [
       {
         "name": "Olive oil",
@@ -71,10 +71,10 @@
     ],
     "step": [
       {
-        "description": "Step 1: Heat the oil in a large pan set over a high heat and fry the onion, celery (both finely chopped) and the pepper (chopped), stirring occasionally, for 5 mins until starting to soften and colour."
+        "description": "Heat the oil in a large pan set over a high heat and fry the onion, celery (both finely chopped) and the pepper (chopped), stirring occasionally, for 5 mins until starting to soften and colour."
       },
       {
-        "description": "Step 2: Stir in the spices and rice, then tip in the tomatoes and a can of water. Stir in the garlic, beans and bouillon. Bring to a simmer, then cover and cook for 25 mins until the rice is tender and has absorbed most of the liquid. Keep an eye on the pan towards the end of the cooking time to make sure it doesn’t boil dry – if it starts to catch, add a little more water. Stir in the parsley and serve hot."
+        "description": "Stir in the spices and rice, then tip in the tomatoes and a can of water. Stir in the garlic, beans and bouillon. Bring to a simmer, then cover and cook for 25 mins until the rice is tender and has absorbed most of the liquid. Keep an eye on the pan towards the end of the cooking time to make sure it doesn’t boil dry – if it starts to catch, add a little more water. Stir in the parsley and serve hot."
       }
     ]
   },
@@ -84,7 +84,7 @@
     "image": "chili.jpg",
     "course": "dinner",
     "description": "Prep: 15min, Cook: 45min, Serves: 4",
-    "price": 17.99,
+    "price": 22.99,
     "ingredient": [
       {
         "name": "Olive oil",
@@ -167,13 +167,13 @@
     ],
     "step": [
       {
-        "description": "Step 1: Heat the oven to 200C/180C fan/gas 6. Put the sweet potato in a roasting tin and drizzle over 1½ tbsp oil, 1 tsp smoked paprika and 1 tsp ground cumin. Give everything a good mix so that all the chunks are coated in spices, season with salt and pepper, then roast for 25 mins until cooked."
+        "description": "Heat the oven to 200C/180C fan/gas 6. Put the sweet potato in a roasting tin and drizzle over 1½ tbsp oil, 1 tsp smoked paprika and 1 tsp ground cumin. Give everything a good mix so that all the chunks are coated in spices, season with salt and pepper, then roast for 25 mins until cooked."
       },
       {
-        "description": "Step 2: Meanwhile, heat the remaining oil in a large saucepan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic and cook for 1 min more. Add the remaining dried spices and tomato purée. Give everything a good mix and cook for 1 min more."
+        "description": "Meanwhile, heat the remaining oil in a large saucepan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic and cook for 1 min more. Add the remaining dried spices and tomato purée. Give everything a good mix and cook for 1 min more."
       },
       {
-        "description": "Step 3: Add the red pepper, chopped tomatoes and 200ml water. Bring the chilli to a boil, then simmer for 20 mins. Tip in the beans and cook for another 10 mins before adding the sweet potato. Season to taste then serve with lime wedges, guacamole, rice and coriander. Will keep, in an airtight container in the freezer, for up to three months."
+        "description": "Add the red pepper, chopped tomatoes and 200ml water. Bring the chilli to a boil, then simmer for 20 mins. Tip in the beans and cook for another 10 mins before adding the sweet potato. Season to taste then serve with lime wedges, guacamole, rice and coriander. Will keep, in an airtight container in the freezer, for up to three months."
       }
     ]
   },
@@ -245,13 +245,13 @@
     ],
     "step": [
       {
-        "description": "Step 1: Heat oven to 200C/180C fan/gas 6. Toss the aubergines in a roasting tin with 2 tbsp olive oil, season well and spread out. Roast for 20 mins or until dark golden and soft."
+        "description": "Heat oven to 200C/180C fan/gas 6. Toss the aubergines in a roasting tin with 2 tbsp olive oil, season well and spread out. Roast for 20 mins or until dark golden and soft."
       },
       {
-        "description": "Step 2: Heat the remaining oil in an ovenproof pan or flameproof casserole dish and cook the onions over a medium heat for 5-6 mins until softening. Stir in the garlic and spices, for a few mins until the spices release their aromas."
+        "description": "Heat the remaining oil in an ovenproof pan or flameproof casserole dish and cook the onions over a medium heat for 5-6 mins until softening. Stir in the garlic and spices, for a few mins until the spices release their aromas."
       },
       {
-        "description": "Step 3: Tip in the tomatoes, coconut milk and roasted aubergines, and bring to a gentle simmer. Simmer for 20-25 mins, removing the lid for the final 5 mins to thicken the sauce. Add a little seasoning if you like, and a pinch of sugar if it needs it. Stir through most of the coriander. Serve over rice or with chapatis, scattering with the remaining coriander."
+        "description": "Tip in the tomatoes, coconut milk and roasted aubergines, and bring to a gentle simmer. Simmer for 20-25 mins, removing the lid for the final 5 mins to thicken the sauce. Add a little seasoning if you like, and a pinch of sugar if it needs it. Stir through most of the coriander. Serve over rice or with chapatis, scattering with the remaining coriander."
       }
     ]
   },
@@ -348,19 +348,19 @@
     ],
     "step": [
       {
-        "description": "Step 1: Mix the soya milk with the lemon juice in a jug and set aside for a few minutes to thicken. Cut 150g of the marzipan from the larger block. Roll this out on a work surface lightly dusted with icing sugar until it's just slightly smaller than the base of a 23cm cake tin. Using the dairy-free spread, butter a 23cm springform cake tin and line with a double layer of baking parchment. Heat the oven to 180C/160C fan/gas 4."
+        "description": "Mix the soya milk with the lemon juice in a jug and set aside for a few minutes to thicken. Cut 150g of the marzipan from the larger block. Roll this out on a work surface lightly dusted with icing sugar until it's just slightly smaller than the base of a 23cm cake tin. Using the dairy-free spread, butter a 23cm springform cake tin and line with a double layer of baking parchment. Heat the oven to 180C/160C fan/gas 4."
       },
       {
-        "description": "Step 2: Mix the dried fruit, lemon zest, chopped cherries and orange zest and juice together in a large bowl, tossing a few times until well combined."
+        "description": "Mix the dried fruit, lemon zest, chopped cherries and orange zest and juice together in a large bowl, tossing a few times until well combined."
       },
       {
-        "description": "Step 3: Beat the vegan spread with the brown sugar until pale using an electric whisk, then add the flour, almonds, baking powder, spices and vanilla. Tip in the milk mixture until you have a smooth batter. Fold in the fruit along with a pinch of salt and any juice from the bowl until well combined – don’t worry if the batter looks slightly curdled."
+        "description": "Beat the vegan spread with the brown sugar until pale using an electric whisk, then add the flour, almonds, baking powder, spices and vanilla. Tip in the milk mixture until you have a smooth batter. Fold in the fruit along with a pinch of salt and any juice from the bowl until well combined – don’t worry if the batter looks slightly curdled."
       },
       {
-        "description": "Step 4: Spoon half the batter into the prepared tin, then gently smooth the surface with the back of the spoon and top with the round of marzipan. Spoon over the remaining batter and smooth the surface again. Bake for 30 mins, then reduce the oven to 150C/130C fan/gas 2 and bake for another 1 hr 45 mins-2 hrs, or until a skewer comes out clean and the cake is well-risen and firm. Carefully remove from the tin and leave to cool completely on a wire rack. Cut into slices to serve. Will keep for two weeks in an airtight container."
+        "description": "Spoon half the batter into the prepared tin, then gently smooth the surface with the back of the spoon and top with the round of marzipan. Spoon over the remaining batter and smooth the surface again. Bake for 30 mins, then reduce the oven to 150C/130C fan/gas 2 and bake for another 1 hr 45 mins-2 hrs, or until a skewer comes out clean and the cake is well-risen and firm. Carefully remove from the tin and leave to cool completely on a wire rack. Cut into slices to serve. Will keep for two weeks in an airtight container."
       },
       {
-        "description": "Step 5: Brush the warm apricot jam over the cooled cake. Cut a 200g piece from the remaining marzipan and roll it out again as before. Cut out a 23cm circle using the base of the cake tin as a guide. Use the rolling pin to help you lift the marzipan circle over the cake and gently press it onto the surface (the apricot jam will help it stick). Divide the remaining marzipan into 11 pieces and roll into balls. Use a little more jam to stick the balls around the edge of the cake – these represent the 12 apostles, minus Judas. If you like, use a kitchen blowtorch to slightly burnish the marzipan balls and topping until just golden (do this carefully so they don't burn)."
+        "description": "Brush the warm apricot jam over the cooled cake. Cut a 200g piece from the remaining marzipan and roll it out again as before. Cut out a 23cm circle using the base of the cake tin as a guide. Use the rolling pin to help you lift the marzipan circle over the cake and gently press it onto the surface (the apricot jam will help it stick). Divide the remaining marzipan into 11 pieces and roll into balls. Use a little more jam to stick the balls around the edge of the cake – these represent the 12 apostles, minus Judas. If you like, use a kitchen blowtorch to slightly burnish the marzipan balls and topping until just golden (do this carefully so they don't burn)."
       }
     ]
   },
@@ -430,16 +430,16 @@
     ],
     "step": [
       {
-        "description": "Step 1: Tip the mushrooms into a food processor and pulse until they are very finely chopped. Put half the olive oil in a large frying pan, add the leeks along with a pinch of salt and fry gently for 15 mins or until softened and golden brown. Scrape the leeks out of the pan, into a bowl and set aside to cool a little."
+        "description": "Tip the mushrooms into a food processor and pulse until they are very finely chopped. Put half the olive oil in a large frying pan, add the leeks along with a pinch of salt and fry gently for 15 mins or until softened and golden brown. Scrape the leeks out of the pan, into a bowl and set aside to cool a little."
       },
       {
-        "description": "Step 2: Heat the remaining oil in the pan and fry the mushrooms for 10 mins over a medium heat. Add the garlic, sage, miso and mustard, and fry for a further minute. Leave to cool slightly."
+        "description": "Heat the remaining oil in the pan and fry the mushrooms for 10 mins over a medium heat. Add the garlic, sage, miso and mustard, and fry for a further minute. Leave to cool slightly."
       },
       {
-        "description": "Step 3: Heat the oven to 200C/180C fan/gas 6. Tip the mushroom mixture into the bowl with the leeks, then add the chestnuts and breadcrumbs. Season, then mix everything together until you have a slightly stiff mixture."
+        "description": "Heat the oven to 200C/180C fan/gas 6. Tip the mushroom mixture into the bowl with the leeks, then add the chestnuts and breadcrumbs. Season, then mix everything together until you have a slightly stiff mixture."
       },
       {
-        "description": "Step 4: Unravel the pastry on a floured surface, then roll the pastry out so that one side measures 43 cm. Mould the mushroom and leek mixture into a sausage shape down the centre of the pastry, then bring the pastry up around the filling and seal along the seam with a fork. Cut into ten pieces. Lay on a parchment-lined baking sheet and brush each piece with milk. Bake for 25 mins or until deep, golden brown. Leave to cool a little and sprinkle with sesame seeds before serving."
+        "description": "Unravel the pastry on a floured surface, then roll the pastry out so that one side measures 43 cm. Mould the mushroom and leek mixture into a sausage shape down the centre of the pastry, then bring the pastry up around the filling and seal along the seam with a fork. Cut into ten pieces. Lay on a parchment-lined baking sheet and brush each piece with milk. Bake for 25 mins or until deep, golden brown. Leave to cool a little and sprinkle with sesame seeds before serving."
       }
     ]
   },
@@ -484,13 +484,13 @@
     ],
     "step": [
       {
-        "description": "Step 1: Whisk the flour, baking powder, sugar, vanilla extract and a pinch of salt in a bowl using a balloon whisk until mixed. Slowly pour in the milk until you get a smooth, thick batter."
+        "description": "Whisk the flour, baking powder, sugar, vanilla extract and a pinch of salt in a bowl using a balloon whisk until mixed. Slowly pour in the milk until you get a smooth, thick batter."
       },
       {
-        "description": "Step 2: Heat a little of the oil in a non-stick frying pan over a medium-low heat, and add 2 tbsp batter into the pan at a time to make small, round pancakes. You will need to do this in batches of two-three at a time. Cook for 3-4 mins until the edges are set, and bubbles are appearing on the surface. Flip the pancakes over and cook for another 2-3 mins until golden on both sides and cooked through. Keep warm in a low oven while you cook the remaining pancakes."
+        "description": "Heat a little of the oil in a non-stick frying pan over a medium-low heat, and add 2 tbsp batter into the pan at a time to make small, round pancakes. You will need to do this in batches of two-three at a time. Cook for 3-4 mins until the edges are set, and bubbles are appearing on the surface. Flip the pancakes over and cook for another 2-3 mins until golden on both sides and cooked through. Keep warm in a low oven while you cook the remaining pancakes."
       },
       {
-        "description": "Step 3: Serve stacked with lots of toppings of your choice, or serve with bowls of toppings for everyone to help themselves."
+        "description": "Serve stacked with lots of toppings of your choice, or serve with bowls of toppings for everyone to help themselves."
       }
     ]
   },
@@ -555,22 +555,22 @@
     ],
     "step": [
       {
-        "description": "Step 1: Preheat the oven to 375 degrees Fahrenheit."
+        "description": "Preheat the oven to 375 degrees Fahrenheit."
       },
       {
-        "description": "Step 2: Grease an 8 x 8″ or 9 x 9″ pan with coconut oil or a neutral oil. In a medium bowl, mix together the rolled oats, pecan pieces, baking powder, cinnamon, allspice, and kosher salt. "
+        "description": "Grease an 8 x 8″ or 9 x 9″ pan with coconut oil or a neutral oil. In a medium bowl, mix together the rolled oats, pecan pieces, baking powder, cinnamon, allspice, and kosher salt. "
       },
       {
-        "description": "Step 3: Dump the dries into the prepared pan.  "
+        "description": "Dump the dries into the prepared pan.  "
       },
       {
-        "description": "Step 4: Mash the bananas. In the same bowl, whisk together the bananas, milk, maple syrup, and vanilla. Drizzle the milk mixture over the oats. Stir lightly with a fork to make everything gets evenly incorporated. "
+        "description": "Mash the bananas. In the same bowl, whisk together the bananas, milk, maple syrup, and vanilla. Drizzle the milk mixture over the oats. Stir lightly with a fork to make everything gets evenly incorporated. "
       },
       {
-        "description": "Step 5: Bake 40 to 45 minutes until the top is nicely golden and the oat mixture has set. Remove from the oven and allow to cool for at least 10 minutes (or more for the texture to fully set). "
+        "description": "Bake 40 to 45 minutes until the top is nicely golden and the oat mixture has set. Remove from the oven and allow to cool for at least 10 minutes (or more for the texture to fully set). "
       },
       {
-        "description": "Step 6: Before serving, spread the top with almond butter or peanut butter (or a combination) and top with banana slices. Store leftovers refrigerated for up to 1 week: reheat in a 300 degree oven or microwave until warm. "
+        "description": "Before serving, spread the top with almond butter or peanut butter (or a combination) and top with banana slices. Store leftovers refrigerated for up to 1 week: reheat in a 300 degree oven or microwave until warm. "
       }
     ]
   },
@@ -627,19 +627,19 @@
     ],
     "step": [
       {
-        "description": "Step 1:  Place your bowls in the freezer: this will help to keep the acai from melting while enjoying it."
+        "description": "Place your bowls in the freezer: this will help to keep the acai from melting while enjoying it."
       },
       {
-        "description": "Step 2: Prep the toppings (before making the bowl, again to minimize melting): In a small skillet, toast the coconut over low to medium low heat until golden brown, stirring often. Immediately remove to a bowl. Dice the mango and reserve half for the acai. Slice the strawberries. "
+        "description": "Prep the toppings (before making the bowl, again to minimize melting): In a small skillet, toast the coconut over low to medium low heat until golden brown, stirring often. Immediately remove to a bowl. Dice the mango and reserve half for the acai. Slice the strawberries. "
       },
       {
-        "description": "Step 3: In a large high speed or regular blender, blend the pineapple, banana and mango until somewhat combined and chunky.  "
+        "description": "In a large high speed or regular blender, blend the pineapple, banana and mango until somewhat combined and chunky.  "
       },
       {
-        "description": "Step 4: Thaw the acai pulp under warm water until it can be broken into smaller chunks, then remove the packaging. Add the acai to the blender with the lime juice and ¼ cup cold water. Blend until smooth, stopping and stirring as necessary. (If you need a bit more water you can add it; try not to add too much in order to keep the acai texture thick. A high speed blender will work well here; with a regular blender you’ll have to stop and stir more.) "
+        "description": "Thaw the acai pulp under warm water until it can be broken into smaller chunks, then remove the packaging. Add the acai to the blender with the lime juice and ¼ cup cold water. Blend until smooth, stopping and stirring as necessary. (If you need a bit more water you can add it; try not to add too much in order to keep the acai texture thick. A high speed blender will work well here; with a regular blender you’ll have to stop and stir more.) "
       },
       {
-        "description": "Step 5: Pour the acai mixture into the frozen bowls. Top with the fruit, coconut, pepitas, and other toppings. Serve immediately. "
+        "description": "Pour the acai mixture into the frozen bowls. Top with the fruit, coconut, pepitas, and other toppings. Serve immediately. "
       }
     ]
   },
@@ -728,37 +728,37 @@
     ],
     "step": [
       {
-        "description": "Step 1: Pat 450g of firm tofu dry with kitchen paper and slice into 4 ‘steaks’."
+        "description": "Pat 450g of firm tofu dry with kitchen paper and slice into 4 ‘steaks’."
       },
       {
-        "description": "Step 2: Combine ½ a teaspoon of ground turmeric, 1 tablespoon each of white miso and rice vinegar, and 2 tablespoons of mirin in a wide shallow bowl, and mix well."
+        "description": "Combine ½ a teaspoon of ground turmeric, 1 tablespoon each of white miso and rice vinegar, and 2 tablespoons of mirin in a wide shallow bowl, and mix well."
       },
       {
-        "description": "Step 3: Add the tofu steaks and turn to coat in the marinade. Set aside to let the flavours mingle for at least 1 hour, turning halfway."
+        "description": "Add the tofu steaks and turn to coat in the marinade. Set aside to let the flavours mingle for at least 1 hour, turning halfway."
       },
       {
-        "description": "Step 4: Preheat the oven to 200°C/400°F/gas 6."
+        "description": "Preheat the oven to 200°C/400°F/gas 6."
       },
       {
-        "description": "Step 5: Cook 300g short grain brown rice according to the packet instructions, then drain. Season with 1 tablespoon of mirin and set aside."
+        "description": "Cook 300g short grain brown rice according to the packet instructions, then drain. Season with 1 tablespoon of mirin and set aside."
       },
       {
-        "description": "Step 6: Scatter 60g of breadcrumbs and 40g of sesame seeds over a tray or plate. Remove the tofu from the marinade (draining the excess and reserving for the dressing). Place the tofu on the tray, turning to coat in the breadcrumbs and seed mixture, until completely covered."
+        "description": "Scatter 60g of breadcrumbs and 40g of sesame seeds over a tray or plate. Remove the tofu from the marinade (draining the excess and reserving for the dressing). Place the tofu on the tray, turning to coat in the breadcrumbs and seed mixture, until completely covered."
       },
       {
-        "description": "Step 7: Drizzle with a little olive oil then transfer to an oven tray and bake for 30 minutes, or until golden and crisp."
+        "description": "Drizzle with a little olive oil then transfer to an oven tray and bake for 30 minutes, or until golden and crisp."
       },
       {
-        "description": "Step 8: To make the katsu dressing, add the 1 tablespoon each of white miso and rice vinegar to the reserved marinade, along with ½ a teaspoon of curry powder and 2 tablespoons of mango chutney. Stir in 50ml of water to loosen and mix well."
+        "description": "To make the katsu dressing, add the 1 tablespoon each of white miso and rice vinegar to the reserved marinade, along with ½ a teaspoon of curry powder and 2 tablespoons of mango chutney. Stir in 50ml of water to loosen and mix well."
       },
       {
-        "description": "Step 9: Core ½ a pineapple and slice into 4 wedges. Sear in a dry, screaming hot frying pan for 3 minutes on each side, or until nicely charred."
+        "description": "Core ½ a pineapple and slice into 4 wedges. Sear in a dry, screaming hot frying pan for 3 minutes on each side, or until nicely charred."
       },
       {
-        "description": "Step 10: Shred 2 fresh red chillies, 4 spring onions and 400g of mixed crunchy veg by hand or in a food processor. Pick the leaves from ½ a bunch of fresh coriander (15g)."
+        "description": "Shred 2 fresh red chillies, 4 spring onions and 400g of mixed crunchy veg by hand or in a food processor. Pick the leaves from ½ a bunch of fresh coriander (15g)."
       },
       {
-        "description": "Step 11: To serve, divide the rice, crunchy veg and coriander leaves between 4 bowls. Slice the crispy tofu steaks into soldiers and divide between the bowls. Add a wedge of charred pineapple and a little pot of dressing for pouring over, and tuck in! Delicious with a drizzle of hot chilli sauce."
+        "description": "To serve, divide the rice, crunchy veg and coriander leaves between 4 bowls. Slice the crispy tofu steaks into soldiers and divide between the bowls. Add a wedge of charred pineapple and a little pot of dressing for pouring over, and tuck in! Delicious with a drizzle of hot chilli sauce."
       }
     ]
   },
@@ -818,31 +818,31 @@
     ],
     "step": [
       {
-        "description": "Step 1: Heat 2 tablespoons of oil in a large saucepan over a medium heat."
+        "description": "Heat 2 tablespoons of oil in a large saucepan over a medium heat."
       },
       {
-        "description": "Step 2: Peel, finely slice and add the onion along with the curry paste, mix well, then cook for 10 minutes, or until the onion is soft and golden, stirring occasionally."
+        "description": "Peel, finely slice and add the onion along with the curry paste, mix well, then cook for 10 minutes, or until the onion is soft and golden, stirring occasionally."
       },
       {
-        "description": "Step 3: Finely chop the chilli, then peel and finely grate the ginger. Pick the coriander leaves and finely slice the stalks. Chop the sweet potatoes into 2cm chunks."
+        "description": "Finely chop the chilli, then peel and finely grate the ginger. Pick the coriander leaves and finely slice the stalks. Chop the sweet potatoes into 2cm chunks."
       },
       {
-        "description": "Step 4: Add the chilli, ginger, coriander stalks and sweet potato to the softened onion. Drain and tip in the chickpeas, then cook for 5 minutes."
+        "description": "Add the chilli, ginger, coriander stalks and sweet potato to the softened onion. Drain and tip in the chickpeas, then cook for 5 minutes."
       },
       {
-        "description": "Step 5: Roughly chop and add the fresh tomatoes (if using) or tip in the tinned tomatoes. Add 200ml of water and bring to the boil."
+        "description": "Roughly chop and add the fresh tomatoes (if using) or tip in the tinned tomatoes. Add 200ml of water and bring to the boil."
       },
       {
-        "description": "Step 6: Reduce the heat to a simmer, then cover and cook for 10 to 15 minutes."
+        "description": "Reduce the heat to a simmer, then cover and cook for 10 to 15 minutes."
       },
       {
-        "description": "Step 7: Remove the lid, then cook for a further 15 to 20 minutes, stirring occasionally, or until the sweet potato is cooked through and the sauce thickened."
+        "description": "Remove the lid, then cook for a further 15 to 20 minutes, stirring occasionally, or until the sweet potato is cooked through and the sauce thickened."
       },
       {
-        "description": "Step 8: Stir in the coconut milk and cook for a couple of minutes, then stir in the spinach and cook until wilted."
+        "description": "Stir in the coconut milk and cook for a couple of minutes, then stir in the spinach and cook until wilted."
       },
       {
-        "description": "Step 9: Scatter over the coriander leaves, then serve with poppadoms and rice, if you like."
+        "description": "Scatter over the coriander leaves, then serve with poppadoms and rice, if you like."
       }
     ]
   },
@@ -925,40 +925,40 @@
     ],
     "step": [
       {
-        "description": "Step 1: To make the dough, gently heat the almond milk until lukewarm, then combine in a small bowl with the yeast and maple syrup. Set aside for about 5 minutes for the yeast to activate."
+        "description": "To make the dough, gently heat the almond milk until lukewarm, then combine in a small bowl with the yeast and maple syrup. Set aside for about 5 minutes for the yeast to activate."
       },
       {
-        "description": "Step 2: Meanwhile, in a large bowl, stir the flaxseed into 3 tablespoons of water and set aside for 1 to 2 minutes."
+        "description": "Meanwhile, in a large bowl, stir the flaxseed into 3 tablespoons of water and set aside for 1 to 2 minutes."
       },
       {
-        "description": "Step 3: Melt the coconut oil, then add to the flaxseed mixture along with the flours, cinnamon and ¼ teaspoon of sea salt. Gradually stir in the yeast mixture."
+        "description": "Melt the coconut oil, then add to the flaxseed mixture along with the flours, cinnamon and ¼ teaspoon of sea salt. Gradually stir in the yeast mixture."
       },
       {
-        "description": "Step 4: Bring everything together with your hands – the dough will feel a bit tacky, but this is fine. Turn out the dough onto a lightly floured surface and knead a couple of times."
+        "description": "Bring everything together with your hands – the dough will feel a bit tacky, but this is fine. Turn out the dough onto a lightly floured surface and knead a couple of times."
       },
       {
-        "description": "Step 5: Place in a greased bowl, cover with a tea towel and leave somewhere warm to prove for 1 hour or until doubled in size."
+        "description": "Place in a greased bowl, cover with a tea towel and leave somewhere warm to prove for 1 hour or until doubled in size."
       },
       {
-        "description": "Step 6: Meanwhile, make the filling. Toast the pecans in a dry frying pan. Peel the bananas and destone the dates."
+        "description": "Meanwhile, make the filling. Toast the pecans in a dry frying pan. Peel the bananas and destone the dates."
       },
       {
-        "description": "Step 7: Reserving one-third of the toasted pecans to one side, add all the filling ingredients to a food processor, then blitz until smooth."
+        "description": "Reserving one-third of the toasted pecans to one side, add all the filling ingredients to a food processor, then blitz until smooth."
       },
       {
-        "description": "Step 8: Preheat the oven to 180ºC/gas 4. Grease a 20cm x 20cm baking dish with a little coconut oil."
+        "description": "Preheat the oven to 180ºC/gas 4. Grease a 20cm x 20cm baking dish with a little coconut oil."
       },
       {
-        "description": "Step 9: On a lightly floured surface, roll the dough out to 20cm x 40cm. Blob the nut mixture onto the dough and spread it evenly across to the edges."
+        "description": "On a lightly floured surface, roll the dough out to 20cm x 40cm. Blob the nut mixture onto the dough and spread it evenly across to the edges."
       },
       {
-        "description": "Step 10: Roll up widthways (from the shortest edge) tightly into a log, then cut into nine slices."
+        "description": "Roll up widthways (from the shortest edge) tightly into a log, then cut into nine slices."
       },
       {
-        "description": "Step 11: Place the slices in the baking dish, cover with a clean tea towel and allow to prove for another 25 minutes or until doubled in size. Bake for 30 minutes, or until golden and slightly firm to the touch. Leave in the tin to cool."
+        "description": "Place the slices in the baking dish, cover with a clean tea towel and allow to prove for another 25 minutes or until doubled in size. Bake for 30 minutes, or until golden and slightly firm to the touch. Leave in the tin to cool."
       },
       {
-        "description": "Step 12: In a small bowl, mix together the almond milk and icing sugar until it’s thick enough to drizzle over the buns. Chop and sprinkle over the reserved toasted pecans and serve."
+        "description": "In a small bowl, mix together the almond milk and icing sugar until it’s thick enough to drizzle over the buns. Chop and sprinkle over the reserved toasted pecans and serve."
       }
     ]
   },
@@ -1005,34 +1005,34 @@
     ],
     "step": [
       {
-        "description": "Step 1: Grease a loaf tin with a little oil then line it with cling film, leaving some overhanging the edges of the tin."
+        "description": "Grease a loaf tin with a little oil then line it with cling film, leaving some overhanging the edges of the tin."
       },
       {
-        "description": "Step 2: Roughly chop the pistachios. Remove the cardamom seeds from the pods, discard the pods and grind the seeds until fine."
+        "description": "Roughly chop the pistachios. Remove the cardamom seeds from the pods, discard the pods and grind the seeds until fine."
       },
       {
-        "description": "Step 3: Add to a large mixing bowl with 30g of the chopped pistachios, the tahini, vanilla and sea salt and beat until smooth"
+        "description": "Add to a large mixing bowl with 30g of the chopped pistachios, the tahini, vanilla and sea salt and beat until smooth"
       },
       {
-        "description": "Step 4: Place the sugar and 75ml of water in a medium saucepan and gently bring to the boil over a medium heat."
+        "description": "Place the sugar and 75ml of water in a medium saucepan and gently bring to the boil over a medium heat."
       },
       {
-        "description": "Step 5: Gently swirl the pan, do not stir the syrup or the sugar will crystallise."
+        "description": "Gently swirl the pan, do not stir the syrup or the sugar will crystallise."
       },
       {
-        "description": "Step 6: Once it starts to bubble, reduce the heat to low and leave to simmer for around 12–15 minutes, until you have a thick syrup. If you have a sugar thermometer, it needs to reach 121°C."
+        "description": "Once it starts to bubble, reduce the heat to low and leave to simmer for around 12–15 minutes, until you have a thick syrup. If you have a sugar thermometer, it needs to reach 121°C."
       },
       {
-        "description": "Step 7: When it is ready, add the tahini mixture to the pan (you don’t want the mixture to cool down, it needs to stay in the warm pan) and quickly beat the two elements together to make a smooth paste."
+        "description": "When it is ready, add the tahini mixture to the pan (you don’t want the mixture to cool down, it needs to stay in the warm pan) and quickly beat the two elements together to make a smooth paste."
       },
       {
-        "description": "Step 8: This is best done with a wooden spoon or spatula. Try not to overwork it, though, as this will make the halva crumbly – you only want to beat it for 30 seconds."
+        "description": "This is best done with a wooden spoon or spatula. Try not to overwork it, though, as this will make the halva crumbly – you only want to beat it for 30 seconds."
       },
       {
-        "description": "Step 9: As soon as it is smoothly combined, spoon it into the lined tin and press on the remaining pistachios."
+        "description": "As soon as it is smoothly combined, spoon it into the lined tin and press on the remaining pistachios."
       },
       {
-        "description": "Step 10: Leave to cool. Once cool, cover with the cling film edges and transfer to the fridge to set overnight before serving."
+        "description": "Leave to cool. Once cool, cover with the cling film edges and transfer to the fridge to set overnight before serving."
       }
     ]
   }

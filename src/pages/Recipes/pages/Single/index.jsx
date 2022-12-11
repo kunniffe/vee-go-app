@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
 
 import Layout from "../../../../components/Layout";
 import { getSingleRecipe } from "../../../../services/recipe";
+import Recipe from "./components/Recipe";
 
 function SingleRecipePage() {
   const [loading, setLoading] = useState(true);
@@ -17,22 +17,10 @@ function SingleRecipePage() {
     })();
   });
 
-  const Recipe = () => {
-    // TODO: Recipe HTML goes here...
-    return (
-      <>
-        <Helmet>
-          <title>Single Recipe | Veego</title>
-        </Helmet>
-        <p>{recipe.name}</p>
-      </>
-    );
-  };
-
   return (
     <Layout>
       {loading && <p>Loading...</p>}
-      {!loading && <Recipe />}
+      {!loading && <Recipe data={recipe} />}
     </Layout>
   );
 }

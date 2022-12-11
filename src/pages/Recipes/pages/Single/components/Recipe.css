@@ -1,0 +1,25 @@
+.Recipe {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  width: 750px;
+}
+.Recipe__title {
+  color: #ddab2b;
+}
+.Recipe__button {
+  background-color: #f3d078; /* Green */
+  border-radius: 12px;
+  padding: 6px 15px;
+  border-color: white;
+  text-align: center;
+}
+.Recipe__image {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #c2eea0;
+  border-radius: 10px;
+  padding: 9px;
+  max-width: 100%;
+  height: auto;
+  /*object-fit: cover;*/
+}
