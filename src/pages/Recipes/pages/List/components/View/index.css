@@ -1,0 +1,12 @@
+.Recipes {
+    background: red;
+}
+
+.Recipes__list__listItem {
+    display: block;
+}
+
+.Recipes__list__listItem__image {
+    width: 100%;
+    height: auto;
+}

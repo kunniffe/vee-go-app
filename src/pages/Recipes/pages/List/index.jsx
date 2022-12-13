@@ -12,7 +12,9 @@ function RecipeListPage() {
       <Helmet>
         <title>Recipes | Veego</title>
       </Helmet>
-      <View data={recipeData} />
+      <div className="Recipes__title">
+        <View data={recipeData} />
+      </div>
     </Layout>
   );
 }
