@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-import "./Recipe.css";
+import "./index.css";
 
 const Recipe = ({ data }) => {
   const addToWishlist = () => {

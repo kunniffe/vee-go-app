@@ -15,6 +15,7 @@ import AccountSettingsPage from "../pages/Account/pages/Settings";
 import AccountWishlistPage from "../pages/Account/pages/Wishlist";
 
 // Recipe routes.
+import { getAllRecipes, getSingleRecipe } from "./recipe"
 import RecipeListPage from "../pages/Recipes/pages/List";
 import SingleRecipePage from "../pages/Recipes/pages/Single";
 
@@ -63,10 +64,12 @@ const router = createBrowserRouter([
     {
         path: "/recipes",
         element: <RecipeListPage />,
+        loader: getAllRecipes,
     },
     {
         path: "/recipes/:recipeId",
         element: <SingleRecipePage />,
+        loader: getSingleRecipe,
     },
 ]);
 
