@@ -1,14 +1,26 @@
-import { Helmet } from 'react-helmet';
+import { useEffect, useState } from "react";
 
 import Layout from "../../../../components/Layout";
+import { getSingleRecipe } from "../../../../services/recipe";
+import Recipe from "./components/Recipe";
 
 function SingleRecipePage() {
+  const [loading, setLoading] = useState(true);
+  const [recipe, setRecipe] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const request = await getSingleRecipe("jambalaya");
+
+      setRecipe(request);
+      setLoading(false);
+    })();
+  });
+
   return (
     <Layout>
-      <Helmet>
-        <title>Single Recipe | Veego</title>
-      </Helmet>
-      <p>Hello, Single Recipe!</p>
+      {loading && <p>Loading...</p>}
+      {!loading && <Recipe data={recipe} />}
     </Layout>
   );
 }
