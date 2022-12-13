@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 // Top-level routes.
 import HomePage from "../pages/Home";
 import CartPage from "../pages/Cart";
+
+import { getAllRestaurants } from "./restaurant";
 import RestaurantsPage from "../pages/Restaurants";
 
 // Account routes.
@@ -13,7 +15,7 @@ import AccountSettingsPage from "../pages/Account/pages/Settings";
 import AccountWishlistPage from "../pages/Account/pages/Wishlist";
 
 // Recipe routes.
-import { getAllRecipes, getSingleRecipe } from "./recipe"
+import { getAllRecipes, getSingleRecipe } from "./recipe";
 import RecipeListPage from "../pages/Recipes/pages/List";
 import SingleRecipePage from "../pages/Recipes/pages/Single";
 
@@ -59,7 +61,8 @@ const router = createBrowserRouter([
     },
     {
         path: "/restaurants",
-        element: <RestaurantsPage />
+        element: <RestaurantsPage />,
+        loader: getAllRestaurants,
     },
 ]);
 
