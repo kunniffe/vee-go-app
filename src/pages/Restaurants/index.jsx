@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet";
 import { useLoaderData } from "react-router-dom";
 
+import Card from "../../components/Card";
+import Deck from "../../components/Deck";
 import Layout from "../../components/Layout";
 import Page from "../../components/Page";
 
@@ -14,15 +16,16 @@ const RestaurantsPage = () => {
             </Helmet>
             <Layout>
                 <Page title="Restaurants">
-                    <ul className="Recipes__list">
-                        {restaurants.map((recipe, index) => (
-                            <li key={index} className="Recipes__list__listItem">
-                                <img src={`/images/${recipe.image}`} alt={recipe.name} className="Recipes__list__listItem__image" />
-                                <h3 className="Recipes__list__listItem__name">{recipe.name}</h3>
-                                <p className="Recipes__list__listItem__desc">{`${recipe.location.town}, ${recipe.location.county}`}</p>
-                            </li>
+                    <Deck>
+                        {restaurants.map((restaurant, index) => (
+                            <Card 
+                                key={index}
+                                title={restaurant.name}
+                                subtitle={`${restaurant.location.town}, ${restaurant.location.county}`}
+                                image={restaurant.image}
+                            />
                         ))}
-                    </ul>
+                    </Deck>
                 </Page>
             </Layout>
         </>

@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
+import Card from "../../../../../../components/Card";
+import Deck from "../../../../../../components/Deck";
 import "./index.css";
 
 const View = ({ data }) => {
@@ -30,17 +31,17 @@ const View = ({ data }) => {
         ))}
       </select>
 
-      <ul className="Recipes__list">
+      <Deck>
         {recipes.map((recipe, index) => (
-          <li key={index} className="Recipes__list__listItem">
-            <Link to={`/recipes/${recipe.id}`}>
-              <img src={`/images/${recipe.image}`} alt={recipe.name} className="Recipes__list__listItem__image" />
-              <h3 className="Recipes__list__listItem__name">{recipe.name}</h3>
-              <p className="Recipes__list__listItem__desc">{recipe.description}</p>
-            </Link>
-          </li>
+          <Card
+            key={index}
+            href={`/recipes/${recipe.id}`}
+            title={recipe.name}
+            subtitle={recipe.description}
+            image={recipe.image}
+          />
         ))}
-      </ul>
+      </Deck>
     </>
   );
 }

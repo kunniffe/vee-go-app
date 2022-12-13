@@ -1,0 +1,26 @@
+.Card {
+    border: 10px solid #c2eea0;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--main-text-color);
+    display: block;
+    margin-bottom: 20px;
+    padding: 9px;
+}
+
+.Card a {
+    text-decoration: none;
+}
+
+.Card__title {
+    color: var(--main-text-color);
+}
+
+.Card__subtitle {
+    font-style: italic;
+    color: black;
+}
+
+.Card__image {
+    width: 100%;
+}
