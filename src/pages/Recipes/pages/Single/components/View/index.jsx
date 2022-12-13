@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 
+import Button from "../../../../../../components/Button";
 import "./index.css";
 
 const Recipe = ({ data }) => {
@@ -12,8 +13,7 @@ const Recipe = ({ data }) => {
       <Helmet>
         <title>{data.name} | Veego</title>
       </Helmet>
-
-      <h2 className="Recipe__title">{data.name}</h2>
+      
       <img
         className="Recipe__image"
         src={"/images/" + data.image}
@@ -27,9 +27,9 @@ const Recipe = ({ data }) => {
         <br />
       </p>
 
-      <button type="button" className="Recipe__button" onClick={addToWishlist}>
+      <Button onClick={addToWishlist}>
         Add To Wishlist
-      </button>
+      </Button>
       <br />
       <br />
 

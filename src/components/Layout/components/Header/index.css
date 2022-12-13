@@ -1,71 +1,50 @@
-.header {
-  position: absolute;
-  top: 25px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 80;
-  background-color: transparent;
-  color: #333;
-  transform: translateY(0);
-  transition: transform 0.1s ease;
+.Nav {
+    border-bottom: 1px solid var(--nav-border-color);
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-.header2 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 80px;
-  background-color: #c2eea0;
-  color: #ddab2b;
-  transform: translateY(10);
-  transition: transform 3s ease;
-  animation: myanimation 3s;
-  z-index: 2;
-}
-@keyframes myanimation {
-  0% {
-    background-color: transparent;
-    color: transparent;
-  }
-  35% {
-    background-color: #cbebb3;
-    color: #d4aa3e;
-  }
-  100% {
-    background-color: #c2eea0;
-    color: #ddab2b;
-  }
+.Nav--scrolling {
+    background-color: var(--nav-background-color);
+    -moz-transition: all .3s ease-in;
+    /* WebKit */
+    -webkit-transition: all .3s ease-in;
+    /* Opera */
+    -o-transition: all .3s ease-in;
+    /* Standard */
+    transition: all .3s ease-in;
 }
 
-.header.shadow {
-  box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+.Nav__brand {
+    color: var(--main-text-color);
+    font-weight: 300;
+    padding: 0 20px;
+    width: 50%;
+    font-size: 16pt;
+    margin-top: 12px;
+    text-decoration: none;
 }
 
-.header.hidden {
-  transform: translateY(-110%);
+.Nav__links {
+    padding: 0 20px;
+    text-align: right;
+    width: 50%;
 }
 
-.logo {
-  margin: 0 24px;
-  font-size: 28px;
-  color: #ddab2b;
+.Nav__links__link {
+    display: inline-block;
+    padding: 0 5px;
+}
+.Nav__links__link a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+.Nav__links__link a:hover,
+.Nav__links__link a:focus {
+    color: var(--nav-link-color-hover);
+    text-decoration: underline;
 }
 
-.links {
-  padding: 0;
-  margin: 0 24px;
-  color: #ddab2b;
-}
-
-.link-item {
-  display: inline-block;
-  margin: 0 12px;
-  cursor: pointer;
-}

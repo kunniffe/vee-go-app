@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 
 import Layout from "../../../../components/Layout";
+import Page from "../../../../components/Page";
 
 function AccountSettingsPage() {
   return (
@@ -8,7 +9,9 @@ function AccountSettingsPage() {
       <Helmet>
         <title>Settings | Veego</title>
       </Helmet>
-      <p>Hello, Settings!</p>
+      <Page title="Settings">
+        <p>Hello, Settings!</p>
+      </Page>
     </Layout>
   );
 }

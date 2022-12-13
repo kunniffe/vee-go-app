@@ -3,14 +3,12 @@ import { createBrowserRouter } from "react-router-dom";
 // Top-level routes.
 import HomePage from "../pages/Home";
 import CartPage from "../pages/Cart";
-import CheckoutPage from "../pages/Checkout";
+import RestaurantsPage from "../pages/Restaurants";
 
 // Account routes.
 import AccountDashboardPage from "../pages/Account/pages/Dashboard";
 import AccountCreatePage from "../pages/Account/pages/Create";
 import AccountLoginPage from "../pages/Account/pages/Login";
-import AccountOrderListPage from "../pages/Account/pages/Orders/pages/List";
-import AccountSingleOrderPage from "../pages/Account/pages/Orders/pages/Single";
 import AccountSettingsPage from "../pages/Account/pages/Settings";
 import AccountWishlistPage from "../pages/Account/pages/Wishlist";
 
@@ -38,14 +36,6 @@ const router = createBrowserRouter([
         element: <AccountLoginPage />,
     },
     {
-        path: "/account/orders",
-        element: <AccountOrderListPage />,
-    },
-    {
-        path: "/account/orders/:orderId",
-        element: <AccountSingleOrderPage />,
-    },
-    {
         path: "/account/settings",
         element: <AccountSettingsPage />
     },
@@ -58,10 +48,6 @@ const router = createBrowserRouter([
         element: <CartPage />,
     },
     {
-        path: "/checkout",
-        element: <CheckoutPage />,
-    },
-    {
         path: "/recipes",
         element: <RecipeListPage />,
         loader: getAllRecipes,
@@ -70,6 +56,10 @@ const router = createBrowserRouter([
         path: "/recipes/:recipeId",
         element: <SingleRecipePage />,
         loader: getSingleRecipe,
+    },
+    {
+        path: "/restaurants",
+        element: <RestaurantsPage />
     },
 ]);
 

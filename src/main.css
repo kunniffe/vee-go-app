@@ -1,6 +1,12 @@
+:root {
+  --main-text-color: #ddab2b;
+  --nav-link-color: #ddab2b;
+  --nav-link-color-hover: #d4aa3e;
+  --nav-background-color: #c2eea0;
+  --nav-border-color: #e1e1e1;
+}
+
 body {
   background-color: #f0eded;
-  border-style: solid;
-  border: 5px solid #c2eea0;
-  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
 }

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 
 import Layout from "../../components/Layout";
+import Page from "../../components/Page";
 
 function CartPage() {
   return (
@@ -8,7 +9,9 @@ function CartPage() {
       <Helmet>
         <title>Cart | Veego</title>
       </Helmet>
-      <p>Hello, Cart!</p>
+      <Page title="Cart">
+        <p>Hello, Cart!</p>
+      </Page>
     </Layout>
   );
 }

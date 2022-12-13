@@ -34,8 +34,8 @@ const View = ({ data }) => {
         {recipes.map((recipe, index) => (
           <li key={index} className="Recipes__list__listItem">
             <Link to={`/recipes/${recipe.id}`}>
-              <h3 className="Recipes__list__listItem__name">{recipe.name}</h3>
               <img src={`/images/${recipe.image}`} alt={recipe.name} className="Recipes__list__listItem__image" />
+              <h3 className="Recipes__list__listItem__name">{recipe.name}</h3>
               <p className="Recipes__list__listItem__desc">{recipe.description}</p>
             </Link>
           </li>

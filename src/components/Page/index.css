@@ -1,0 +1,9 @@
+.Page {
+    display: block;
+    margin: 70px auto 0;
+    max-width: 750px;
+}
+
+.Page .Page__title {
+    color: #ddab2b;
+}

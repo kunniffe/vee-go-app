@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 
 import Layout from "../../../../components/Layout";
+import Page from "../../../../components/Page";
 
 function AccountWishlistPage() {
   return (
@@ -8,7 +9,9 @@ function AccountWishlistPage() {
       <Helmet>
         <title>Wishlist | Veego</title>
       </Helmet>
-      <p>Hello, Wishlist!</p>
+      <Page title="Wishlist">
+        <p>Hello, Wishlist!</p>
+      </Page>
     </Layout>
   );
 }

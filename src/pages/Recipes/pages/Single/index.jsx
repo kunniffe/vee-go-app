@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 
 import Layout from "../../../../components/Layout";
+import Page from "../../../../components/Page";
 import View from "./components/View";
 
 function SingleRecipePage() {
@@ -8,7 +9,9 @@ function SingleRecipePage() {
 
   return (
     <Layout>
-      <View data={recipeData} />
+      <Page title={recipeData.name}>
+        <View data={recipeData} />
+      </Page>
     </Layout>
   );
 }

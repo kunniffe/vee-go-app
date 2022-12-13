@@ -4,41 +4,36 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 function Header() {
-  const [header, setHeader] = useState("header");
+  const [navMode, setNavMode] = useState("Nav");
 
-  const listenScrollEvent = (event) => {
-    if (window.scrollY < 73) {
-      return setHeader("header");
-    } else if (window.scrollY > 70) {
-      return setHeader("header2");
+  function listenScrollEvent(event) {
+    if (window.scrollY < 50) {
+      return setNavMode("Nav");
+    } else if (window.scrollY > 50) {
+      return setNavMode("Nav Nav--scrolling");
     }
-  };
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
 
     return () => window.removeEventListener("scroll", listenScrollEvent);
-  }, []);
+  });
 
   return (
-    <header className={header}>
-      <div className="logo">
-        <b>Veego</b>
-      </div>
-      <ul className="links">
-        <li className="link-item">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="link-item">
-          <Link to="/recipes">Recipes</Link>
-        </li>
-        <li className="link-item">
-          <Link to="/account">Account</Link>
-        </li>
-        <li className="link-item">
-          <Link to="/cart">Cart</Link>
-        </li>
-      </ul>
+    <header className="Header">
+      <nav className={navMode}>
+        <Link to="/" className="Nav__brand">
+          Veego
+        </Link>
+        <ul className="Nav__links">
+          {[{title: "Recipes", url: "/recipes"}, {title: "Restaurants", url: "/restaurants"}, {title: "Wishlist", url: "/account/wishlist"}, {title: "Cart", url: "/cart"}].map((item, index) => (
+            <li key={index} className="Nav__links__link">
+              <Link to={item.url}>{item.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }
