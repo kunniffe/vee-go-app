@@ -22,7 +22,7 @@ const Card = ({children, href, image, title, subtitle}) => {
     // We don't need to link to another page.
     return (
         <li className="Card">
-                <img className="Card__image" src={image} alt={title} />
+                <img className="Card__image" src={validImage} alt={title} />
                 <h3 className="Card__title">{title}</h3>
                 <p className="Card__subtitle">{subtitle}</p>
                 {children}

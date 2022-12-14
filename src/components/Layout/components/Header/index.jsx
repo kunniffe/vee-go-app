@@ -27,7 +27,7 @@ function Header() {
           Veego
         </Link>
         <ul className="Nav__links">
-          {[{title: "Recipes", url: "/recipes"}, {title: "Restaurants", url: "/restaurants"}, {title: "Wishlist", url: "/account/wishlist"}, {title: "Cart", url: "/cart"}].map((item, index) => (
+          {[{title: "Recipes", url: "/recipes"}, {title: "Restaurants", url: "/restaurants"}, {title: "Cart", url: "/cart"}].map((item, index) => (
             <li key={index} className="Nav__links__link">
               <Link to={item.url}>{item.title}</Link>
             </li>

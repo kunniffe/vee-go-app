@@ -1,10 +1,15 @@
 import data from "./data";
 
-export async function getAllRecipes() {
-  return await data;
+export function getAllRecipes() {
+  return data;
 }
 
-export async function getSingleRecipe({ params }) {
-  const recipes = await data;
-  return await recipes.find((x) => x.id === params.recipeId);
+export function getSingleRecipe(id) {
+  const recipes = data;
+  return recipes.find((x) => x.id === id);
+}
+
+export function singleRecipeLoader({params}) {
+  const recipe = getSingleRecipe(params.recipeId);
+  return recipe;
 }
