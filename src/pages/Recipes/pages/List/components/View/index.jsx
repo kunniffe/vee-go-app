@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Card from "../../../../../../components/Card";
 import Deck from "../../../../../../components/Deck";
-import "./index.css";
 
 const View = ({ data }) => {
   const [recipes, setRecipes] = useState(data);

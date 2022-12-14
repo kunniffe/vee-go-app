@@ -1,14 +1,6 @@
-.Recipe__button {
-  background-color: #f3d078; /* Green */
-  border-radius: 12px;
-  padding: 6px 15px;
-  border-color: white;
-  text-align: center;
-}
 .Recipe__image {
-  border: 10px solid #c2eea0;
-  border-radius: 10px;
-  display: block;
-  padding: 9px;
-  max-width: 100%;
+    border: 10px solid #c2eea0;
+    border-radius: 10px;
+    padding: 9px;
+    width: 100%;
 }
