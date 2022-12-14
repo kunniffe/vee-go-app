@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Lawlor's of Naas",
-    "image": "jambalaya.jpg",
+    "image": "vegRestaurant1.jpg",
     "location": {
       "county": "Kildare",
       "town": "Naas",
@@ -13,6 +13,7 @@
   {
     "id": 2,
     "name": "Bistro 53",
+    "image": "vegRestaurant2.jpg",
     "location": {
       "county": "Kildare",
       "town": "Maynooth",
@@ -23,6 +24,7 @@
   {
     "id": 3,
     "name": "Avenue Cafe, Resturanr &Bar",
+    "image": "vegRestaurant3.jpg",
     "location": {
       "county": "Kildare",
       "town": "Maynooth",
@@ -33,6 +35,7 @@
   {
     "id": 4,
     "name": "Amber Tree Bistro",
+    "image": "vegRestaurant4.jpg",
     "location": {
       "county": "Kildare",
       "town": "Celbridge",
@@ -43,6 +46,7 @@
   {
     "id": 5,
     "name": "Sásta by the River",
+    "image": "vegRestaurant5.jpg",
     "location": {
       "county": "Kildare",
       "town": "Maynooth",
@@ -53,6 +57,7 @@
   {
     "id": 6,
     "name": "Stone Haven restaurant",
+    "image": "vegRestaurant6.jpg",
     "location": {
       "county": "Kildare",
       "town": "Lexilip",
@@ -63,6 +68,7 @@
   {
     "id": 7,
     "name": "Rye River Cafe",
+    "image": "vegRestaurant7.jpg",
     "location": {
       "county": "Kildare",
       "town": "Maynooth",
@@ -73,6 +79,7 @@
   {
     "id": 8,
     "name": "Timeless Cafe",
+    "image": "vegRestaurant8.jpg",
     "location": {
       "county": "Kildare",
       "town": "Kilcock",
