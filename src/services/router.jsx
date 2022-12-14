@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 // Top-level routes.
 import HomePage from "../pages/Home";
 import CartPage from "../pages/Cart";
+import ErrorPage from "../pages/Error";
 
 import { getAllRestaurants } from "./restaurant";
 import RestaurantsPage from "../pages/Restaurants";
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <HomePage />,
-        errorElement: <div>Error!</div>,
+        errorElement: <ErrorPage />,
     },
     {
         path: "/cart",
