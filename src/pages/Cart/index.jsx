@@ -53,7 +53,7 @@ function CartPage() {
             </Deck>
           </>
         )}
-        {cart.length === 0 && (<p>The cart is empty!</p>)}
+        {cart.length === 0 && (<p>Your cart is empty!</p>)}
       </Page>
     </Layout>
   );

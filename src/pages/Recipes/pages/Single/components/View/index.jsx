@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-import { addItemToCart, removeItemFromCart } from "../../../../../../services/cart";
+import { addItemToCart } from "../../../../../../services/cart";
 import Button from "../../../../../../components/Button";
 import "./index.css";
 
@@ -25,9 +25,6 @@ const Recipe = ({ data }) => (
 
     <Button onClick={() => addItemToCart(data.id)}>
       Add To Cart
-    </Button>
-    <Button onClick={() => removeItemFromCart(data.id)}>
-      Remove From Cart
     </Button>
     <br />
     <br />
