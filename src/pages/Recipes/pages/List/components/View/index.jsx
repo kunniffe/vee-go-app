@@ -6,10 +6,12 @@ import Deck from "../../../../../../components/Deck";
 const View = ({ data }) => {
   const [recipes, setRecipes] = useState(data);
 
+  // Event handler for the drop-down-list
   function handleFilterChange(event) {
     const option = event.target.value;
 
-    // Filter only the recipes with option.
+    // Filter only the recipes with option. We assign the value of the event.
+    // The event is what is 'selected' from the list.
     if (option === "filter") {
       setRecipes(data);
     } else {
@@ -20,14 +22,18 @@ const View = ({ data }) => {
 
   return (
     <>
-      <select 
+      <select
         name="Recipes__filter"
         className="Recipes__filter"
         onChange={handleFilterChange}
       >
-        {["Filter", "Breakfast", "Lunch", "Dinner", "Dessert"].map((meal, index) => (
-          <option key={index} value={meal.toLowerCase()}>{meal}</option>
-        ))}
+        {["Filter", "Breakfast", "Lunch", "Dinner", "Dessert"].map(
+          (meal, index) => (
+            <option key={index} value={meal.toLowerCase()}>
+              {meal}
+            </option>
+          )
+        )}
       </select>
 
       <Deck>
@@ -43,6 +49,6 @@ const View = ({ data }) => {
       </Deck>
     </>
   );
-}
+};
 
 export default View;
